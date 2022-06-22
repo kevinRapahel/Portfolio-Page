@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  *, ::before, ::after{
+      box-sizing: inherit;
+  }
+  
+  html{
+    background-color: black;
+  }
+  
+  #navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: yellow;
+    box-shadow: 0 2px 0;
+    z-index: 10;
+    overflow: hidden;
+  }
+
+  .logo-image{
+    width: 70px;
+    height: 70px;
+    border-radius: ;
+    margin-top: 12px;
+    padding-right: 650px 
+  }
+  
+  .list{
+    display: flex;
+    margin-right: 2rem;
+  }
+  
+  .list a{
+    display: block;
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    transition: 1s ease;
+  }
+
+  .list a:hover{
+    background-color: #000;
+    color: whitesmoke;
+    height: 40px;
+    border-radius: 50px;
+    padding-top: 13px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  
+  body{
+    font-family: 'poppins', san-serif;
+    color: whitesmoke;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height:1.4;
+  }
+  
+  #welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+  }
+  
+  h1{
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  #welcome-section p{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: italic;
+    color: yellow;
+  }
+  
+  #project-samples{
+    text-align: center;
+    padding: 8rem 2rem;
+    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%)
+  }
+
+  img{
+      width: 100%;
+      display: block;
+  }
+  
+  .project-head{
+    max-width: 550px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.3rem solid white
+  }
+  
+  .project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.project-list{
+    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    box-shadow: 1px 1px 1px;
+    border-radius: 2px;
+}
+
+p{
+    color: whitesmoke;
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+}
+
+.image-project{
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact-section{
+    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.text-header{
+    text-align: center;
+}
+
+.text-header h2{
+    font-size: 3.5rem;
+}
+
+.text-header p{
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 3em;
+}
+
+.contact-link{
+  margin-bottom: 2.5rem;
+}
+
+.text-color{
+    color: whitesmoke;
+    font-size: ;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+
+.fa-brands, .fa-solid{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer{
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    border-top: 4px solid yellow;
+}
+
+footer p{
+    margin: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
